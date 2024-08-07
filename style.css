@@ -7,19 +7,55 @@ body{
     text-align:justify;
 }
 
-#divMusics{
+#divMusics span {
 
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-right: 250px;
-    padding-left: 250px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 5px;
+
+
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+    height: 30px;
+    transition-duration: 500ms; 
+}
+
+#divMusics span:hover{
+    color: solid, black;
+    background-color: solid black;
+    border: 2px solid black;
+    border-radius: 20px;
+
+
+    box-sizing: border-box;
+    padding: 10px;
+    height: 50px;
+    font-size: 24px;
+    transition-duration: 500ms;
+}
+
+span{
+    text-align: center;
+}
+span:hover{
+    text-align: center;
+}
+
+.spanClass{
+
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+#divMusics{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
-    
-
-
-    height: 500px;
-    
 }
 
 #clean{
